@@ -26,10 +26,17 @@ export default {
 
 <style scoped lang="scss">
 .todo-item {
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 5px;
+  background: white;
   text-align: start;
+  height: 43px;
+  border-bottom: 1px solid #bdbdbd;
 }
 .complete {
-    text-decoration: line-through;
+  color: #bdbdbd;
+  text-decoration: line-through;
 }
 </style>
