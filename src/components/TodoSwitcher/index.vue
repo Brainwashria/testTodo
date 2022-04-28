@@ -45,15 +45,6 @@ export default defineComponent({
         opacity: 0.7;
       }
     }
-    .completed-todo {
-      background-color: #8dad8d;
-    }
-    .in-progress-todo {
-      background-color: #8a8ade;
-    }
-    .all-todos {
-      background-color: #8f8f8f;
-    }
     .active {
       border: 1px solid #bdbdbd;
     }
